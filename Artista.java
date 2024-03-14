@@ -18,7 +18,18 @@ public class Artista {
         return nombreArtista;
 	//Esto es un comentario
     }
-    
+
+    public boolean nombreMayor(int len){
+	//Victor Manuel Solsona Fuentes
+
+	boolean esMayor = false;
+
+	if(nombreArtisa.length() > len){
+		esMayor = true;	
+	}
+
+	return esMayor;
+    }
 }
 
 
